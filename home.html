@@ -10,16 +10,96 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <style>
          body{
-            overflow: hidden;
+            overflow-x: hidden;
             background-color: rgb(22, 154, 22);
          }
          header{
-            background-color: rgb(70, 224, 70);
+            background-color: rgb(1, 158, 1);
+            position: relative;
+         }
+         .navbar-brand img{
+          border-radius: 50px;
          }
          .nav-link{
             font-weight: 500;
          }
-
+         .main,.one{
+          position: relative;
+         }
+        .main img,.one img{
+          width: 100%;
+          height: auto;
+        }
+        .text-main{
+          position: absolute;
+          color: rgb(226, 218, 218);
+          top: 20%;
+          left: 50%;
+          padding: 10px;
+          font-size: large;
+          font-family: cursive;
+        }
+        .text-main2{
+          position: absolute;
+          color: rgb(253, 248, 248);
+          top: 25%;
+          left: 20%;
+          padding: 10px;
+          font-size: large;
+          font-family: cursive;
+          font-weight: 80;
+          font-style: italic;
+          
+        }
+        .mainh3{
+          text-transform: uppercase;
+        }
+        .scroll2-transform,.category{
+          color: rgb(251, 248, 246);
+          text-align: center;
+          padding-top: 15px;
+          text-transform: uppercase;
+          font-family: cursive;
+          font-weight: 100;
+          font-size: xx-large;
+         
+        }
+        .scroll2-p{
+          color:black;
+          text-align: center;
+          padding: 15px 30px 0px 30px;
+          font-size: larger;
+          font-family: cursive;
+        }
+        .booking{
+          color: white;
+          text-align: center;
+          font-size: larger;
+          padding-bottom: 10px;
+        }
+        /*.row::after{
+          box-sizing: border-box;
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .col{
+          width: 33.33%;
+          float: left;
+        }*/
+        .image-container{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          gap: 10px;
+          padding-top: 20px;
+        }
+        .image-container img{
+          width: 100%;
+          height: 100%;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
     </style>
     
 </head>
@@ -66,15 +146,37 @@
         </li>
         <li class="nav-item">
           <a class="nav-link " href="#con"> <i class="fa-brands fa-x-twitter"></i></a>
-        </li>       
-        
-      </ul>
+        </li>    
+        </ul>
     </div>
-    </div>
-   
+    </div>   
   </div>
 </nav>
 </header>
+<!--hero section-->
+<div class="main">
+  <img src="images/Adventure-Ideas2.jpg">
+  <div class="text-main">
+    <h3 class="mainh3">creative nature adventures</h3>
+    <p>A journey of a thousand miles begins with a single step.</p>
+  </div>
+</div>
+<!---hero section end-->
+<!--scroll-2-->
+<div class="scroll2-transform">-- Transform young lives --</div>
+<p class="scroll2-p"><b>Nature India</b> is a Christian charity providing outdoor adventure for all.
+Our four centres across the India deliver tailor-made adventure programmes packed with exciting and challenging activities.
+From mountain biking through rugged trails to tackling our epic climbing walls or enjoying time in our onsite swimming pools.
+Every experience is designed to build resilience, boost confidence and encourage independence in a fun, supportive environment.
+<p class="booking">Make a booking enquiry today!</p></p>
+<!--scroll-2 end-->
+<!--scroll-3-->
+<p class="category">- DIFFERENT CATEGORIES -</p>
+<div class="image-container">
+  <div class="col one"><img src="images/students adv.jpg" ><p class="text-main2">STUDENTS</p></div>
+  <div class="col one"><img src="images/friends.jpg" ><p class="text-main2">GROUPS</p></div>
+  <div class="col one"><img src="images/family.jpg" ><p class="text-main2">FAMILIES</p></div>
+</div>
 
 </body>
 </html>
