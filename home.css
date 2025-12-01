@@ -1,0 +1,153 @@
+body{
+            overflow-x: hidden;
+            background-color: rgb(22, 154, 22);
+         }
+         header{
+            background-color: rgb(1, 158, 1);
+            position: relative;
+         }
+         .navbar-brand img{
+          border-radius: 50px;
+         }
+         .nav-link{
+            font-weight: 500;
+         }
+         .main,.one{
+          position: relative;
+         }
+        .main img,.one img{
+          width: 100%;
+          height: auto;
+        }
+        .text-main{
+          position: absolute;
+          color: rgb(234, 230, 230);
+          top: 20%;
+          left: 50%;
+          padding: 10px;
+          font-size: large;
+          font-family: cursive;
+        }
+        .text-main2{
+          position: absolute;
+          color: rgb(253, 248, 248);
+          top: 25%;
+          left: 20%;
+          padding: 10px;
+          font-size: large;
+          font-family: cursive;
+          font-weight: 80;
+          font-style: italic;
+          
+        }
+        .mainh3{
+          text-transform: uppercase;
+        }
+        .scroll2-transform,.category,.note{
+          color: rgb(251, 248, 246);
+          text-align: center;
+          padding-top: 45px;
+          
+          text-transform: uppercase;
+          font-family: cursive;
+          font-weight: 100;
+          font-size: xx-large;
+         
+        }
+        .scroll2-p{
+          color:black;
+          text-align: center;
+          padding: 15px 30px 0px 30px;
+          font-size: larger;
+          font-family: cursive;
+        }
+        .booking{
+          color: white;
+          text-align: center;
+          font-size: larger;
+          padding-bottom: 10px;
+        }
+        /*.row::after{
+          box-sizing: border-box;
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .col{
+          width: 33.33%;
+          float: left;
+        }*/
+        .image-container{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          gap: 10px;
+          padding-top: 20px;
+        }
+        .image-container img{
+          width: 100%;
+          height: 100%;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+        .card-title1,.act{
+           color:black;
+          text-align: center;
+          padding-top: 25px;   
+          padding-bottom: 10px;             
+          text-decoration: underline;
+          font-family: cursive;
+          font-weight: 100;
+          font-size: xx-large;
+        }
+        .card{
+          background-color:  rgb(22, 154, 22);
+          border: none;
+        }
+        .card-text1,.act2{
+          font-family: cursive;
+          font-size: larger;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+          font-style: italic;
+        }
+        .carousel-item img{
+          width: 60%;
+          height: 20%;
+          margin-left: auto;
+          margin-right: auto;   
+          opacity: 0.35;  
+               
+        }
+        .geo{
+           position: absolute;
+          color: rgb(248, 244, 244);
+          top: 45%;
+          left: 30%;
+          padding: 10px;
+          font-size: large;
+          font-family: cursive;
+          font-weight: 10;
+          font-style: italic;
+          }
+          footer{
+            margin-top: 20px;
+            background-color:black;
+            color: white;
+            padding: 20px;
+          }
+         .foot img{
+          border-radius: 40px;
+          padding-top: 5px;
+         }
+         .keep{
+          padding: 5px;
+         }
+         .po{
+          font-size: x-large;
+         }
+         .copy{
+          text-align: center;
+         }
+         
