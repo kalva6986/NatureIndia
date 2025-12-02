@@ -1,0 +1,104 @@
+ body{
+            overflow-x: hidden;
+            background-color: rgb(22, 154, 22);
+         }
+         header{
+            background-color: rgb(88, 84, 84);
+            position: relative;
+            
+         }
+         .navbar-brand img{
+          border-radius: 50px;
+         }
+         .nav-link{
+            font-weight: 500;
+            color: white;
+         }
+         .aboutus {
+            margin-top: 10px;
+            position: relative;
+            width: 90vw;
+            height: 80vh;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.65;
+            margin-bottom: -250px;
+           
+         }
+         .aboutus img{
+            width: 100%;
+            height: 100%;
+         }
+         .text{
+             position: absolute;
+          color: #fff;
+          top: 20%;
+          left: 30%;
+          padding: 10px;
+          font-size: xx-large;
+          font-family: cursive;
+         }
+         .who{
+          color: #fff;
+          text-align: center;
+          font-family:cursive;
+          text-decoration: underline;
+         
+          
+         }
+         .w-ans{
+          color: black;
+          text-align: center;
+          font-family: cursive;
+          font-style: italic;
+          font-size:x-large;
+         }
+         .ccc{
+          background-color:rgb(22, 154, 22);
+          padding: 15px;
+          border: none;
+         }
+         .card-title1,.card-title2{
+          color: #fff;
+          text-align: center;
+          text-decoration: underline;
+           font-size: xx-large;
+          font-family: cursive;
+          font-weight: 300;
+         }
+         .card-text1,.card-text2{
+          color: black;
+          text-align: center;
+          font-style: italic;
+          font-size: x-large;
+          padding: 10px;
+         }
+         .ddd{
+          background-color:rgb(22, 154, 22);
+          margin-top: 20px;
+          border:none;
+          padding: 10px;
+         }
+         .child img{
+          width: 90%;
+         
+         }
+         footer{
+            margin-top: 20px;
+            background-color:rgb(88, 84, 84);
+            color: white;
+            padding: 20px;
+          }
+         .foot img{
+          border-radius: 40px;
+          padding-top: 5px;
+         }
+         .keep{
+          padding: 5px;
+         }
+         .po{
+          font-size: x-large;
+         }
+         .copy{
+          text-align: center;
+         }
