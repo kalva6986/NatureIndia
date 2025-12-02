@@ -1,0 +1,75 @@
+body{
+            overflow-x: hidden;
+            background-color: rgb(22, 154, 22);
+         }
+         header{
+            background-color: rgb(88, 84, 84);
+            position: relative;
+            
+         }
+         .navbar-brand img{
+          border-radius: 50px;
+         }
+         .nav-link{
+            font-weight: 500;
+            color: white;
+         }
+        .aboutus {
+            margin-top: 10px;
+            position: relative;
+            width: 80vw;
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.75;
+            margin-bottom: -300px;
+            
+           
+         }
+         .aboutus img{
+            width: 100%;
+            height: 100%;
+         }
+         .text,.card-body{
+             position: absolute;
+          color: #fff;
+          top: 30%;
+          left: 10%;
+          padding: 10px;
+          font-size: xx-large;
+          font-family: cursive;
+          font-weight: 300;
+         }
+         .des{
+            color: white;
+            font-family: cursive;
+            font-style: italic;
+            font-size: x-large;
+            text-align: center;
+            padding: 20px;
+         }
+         .card{
+            opacity: 0.85;
+            background:rgba(45, 1, 83, 0.55);
+            mix-blend-mode: multiply;
+         }
+         footer{
+            margin-top: 20px;
+            background-color:rgb(88, 84, 84);
+            color: white;
+            padding: 20px;
+          }
+         .foot img{
+          border-radius: 40px;
+          padding-top: 5px;
+         }
+         .keep{
+          padding: 5px;
+         }
+         .po{
+          font-size: x-large;
+         }
+         .copy{
+          text-align: center;
+         }
+         
